@@ -1,0 +1,22 @@
+/* ARCHIVO: menu-styles.css */
+
+.bg-brown {
+    background-color: #6fae37;
+}
+
+.hero-menu {
+    background-color: #f4e9d8;
+}
+
+.hero-menu h2 {
+    color: #6f4e37;
+}
+
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+-->

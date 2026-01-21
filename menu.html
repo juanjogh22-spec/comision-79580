@@ -1,0 +1,134 @@
+<!-- ARCHIVO: menu.html (PÁGINA 2) -->
+<!--
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café del Barrio - Menú</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="menu-styles.css">
+</head>
+<body>
+    <header class="bg-brown text-white">
+        <div class="container">
+            <div class="logo text-center py-3">
+                <h1>☕ Café del Barrio</h1>
+            </div>
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container-fluid">
+                    <button class="navbar-toggler mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                            <li class="nav-item"><a class="nav-link active" href="menu.html">Menú</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-menu text-center py-5">
+            <div class="container">
+                <h2 class="display-4">Nuestro Menú</h2>
+                <p class="lead">Descubre nuestras deliciosas opciones</p>
+            </div>
+        </section>
+
+        <section class="container my-5">
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow">
+                        <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93" class="card-img-top" alt="Café espresso en taza pequeña sobre platillo">
+                        <div class="card-body">
+                            <h5 class="card-title">Espresso</h5>
+                            <p class="card-text">Café puro y concentrado, perfecto para los amantes del café fuerte.</p>
+                            <p class="text-success fw-bold fs-5">$3.500</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow">
+                        <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735" class="card-img-top" alt="Cappuccino con espuma cremosa y arte latte">
+                        <div class="card-body">
+                            <h5 class="card-title">Cappuccino</h5>
+                            <p class="card-text">Espresso con leche vaporizada y espuma cremosa.</p>
+                            <p class="text-success fw-bold fs-5">$5.000</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow">
+                        <img src="https://images.unsplash.com/photo-1517487881594-2787fef5ebf7" class="card-img-top" alt="Latte en vaso alto con leche cremosa">
+                        <div class="card-body">
+                            <h5 class="card-title">Latte</h5>
+                            <p class="card-text">Café suave con abundante leche vaporizada.</p>
+                            <p class="text-success fw-bold fs-5">$5.500</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow">
+                        <img src="https://images.unsplash.com/photo-1572490122747-3968b75cc699" class="card-img-top" alt="Croissant recién horneado dorado y hojaldrado">
+                        <div class="card-body">
+                            <h5 class="card-title">Croissant</h5>
+                            <p class="card-text">Recién horneado cada mañana, mantecoso y crujiente.</p>
+                            <p class="text-success fw-bold fs-5">$4.000</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow">
+                        <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587" class="card-img-top" alt="Pastel de chocolate con decoración de crema">
+                        <div class="card-body">
+                            <h5 class="card-title">Torta de Chocolate</h5>
+                            <p class="card-text">Deliciosa torta casera de chocolate con ganache.</p>
+                            <p class="text-success fw-bold fs-5">$6.500</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow">
+                        <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff" class="card-img-top" alt="Sándwich gourmet con ingredientes frescos">
+                        <div class="card-body">
+                            <h5 class="card-title">Sándwich Club</h5>
+                            <p class="card-text">Pan artesanal con pavo, tocino, lechuga y tomate.</p>
+                            <p class="text-success fw-bold fs-5">$8.000</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-light py-4">
+            <div class="container">
+                <div class="alert alert-info" role="alert">
+                    <h5 class="alert-heading">💡 Promoción del Día</h5>
+                    <p>Todos los cafés con 20% de descuento de 2pm a 4pm. ¡No te lo pierdas!</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-brown text-white text-center py-4 mt-5">
+        <div class="container">
+            <p class="mb-1">&copy; 2026 Café del Barrio. Todos los derechos reservados.</p>
+            <p class="mb-1">Dirección: Calle 50 #45-20, Envigado</p>
+            <p class="mb-0">Teléfono: (604) 123-4567</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+-->
