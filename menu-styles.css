@@ -1,7 +1,5 @@
-/* ARCHIVO: menu-styles.css */
-
 .bg-brown {
-    background-color: #6fae37;
+    background-color: #6f4e37;
 }
 
 .hero-menu {
@@ -19,4 +17,3 @@
 .card:hover {
     transform: translateY(-5px);
 }
--->
